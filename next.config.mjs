@@ -8,3 +8,16 @@ const nextConfig = {
 };
 
 export default nextConfig;
+const nextConfig = {
+  output: "export",  // <=== enables static exports
+  reactStrictMode: true,
+};
+
+module.exports = nextConfig;
+const nextConfig = {
+  basePath: "/2048-in-react",
+  output: "export",
+  reactStrictMode: true,
+};
+
+module.exports = nextConfig;
